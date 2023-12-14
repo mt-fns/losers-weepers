@@ -1,0 +1,42 @@
+.logo {
+  height: 100px; /* Adjust size accordingly */
+  margin-right: 10px; /* Spacing between logo and heading */
+}
+.topLeft {
+  color: #FFFCEC;
+  display: flex; /* Aligns child elements (logo and heading) in a row */
+  align-items: center; /* Centers child elements vertically */
+  height: 100%; /* Ensures the container stretches to the full height of the parent */
+}
+
+.heading {
+  font-size: 24px; /* Adjust the size as per your design */
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.topbar {
+  cursor: pointer; /* Indicates the topbar is clickable */
+  background-color: #36393F; /* Background color of the topbar */
+  color: black;
+  height: 100px; /* Height of the topbar */
+  width: 100%; /* Full width */
+  position: fixed; /* Fixed Topbar (stay in place on scroll) */
+  top: 0;
+  left: 0;
+  z-index: 100; /* Ensure it stays on top */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute space between items */
+  padding: 0 20px; /* Padding on the sides */
+}
+
+.topbar a {
+  color: white; /* Link color */
+  text-decoration: none; /* No underlines on links */
+  padding: 0 10px;
+}
+
+.topbar a:hover {
+  color: #ddd; /* Hover effect color */
+}

@@ -1,0 +1,48 @@
+/* AboutUs.css */
+
+.about-container {
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center;
+  padding: 40px;
+  color: #333; /* Dark text for contrast */
+  font-family: 'Arial', sans-serif;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.about-container h1 {
+  color: #CF7E66; /* Blue color for the main heading */
+  /*margin-bottom: 30px;*/
+}
+
+.about-content {
+  background-color: #fff; /* White background for the content area */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 900px; /* Limiting width for better readability */
+  margin: auto; /* Center aligning the content box */
+}
+
+.about-content h2 {
+  color: #CF7E66; /* A warm color for the subheading */
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1em; /* Slightly larger font size for readability */
+  line-height: 1.6; /* Improved line height for reading comfort */
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-content {
+    padding: 15px;
+  }
+}

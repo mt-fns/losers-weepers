@@ -1,0 +1,54 @@
+/* Main Content Styles */
+.main-content {
+  background-color: #f0f8ff; /* Light blue background */
+  margin-left: 150px;
+  margin-top: 150px;
+  /*padding: 20px;*/
+}
+
+#title {
+  color: #CF7E66; /* Blue color for the main heading */
+}
+
+/* FAQ Section Styles */
+.faq h1 {
+  color: #CF7E66; /* Blue color for the main heading */
+  margin-bottom: 20px;
+}
+
+.faq h3 {
+  color: #333333; /* Dark color for the question headings for readability */
+  margin-top: 20px;
+}
+
+.faq p {
+  padding-left: 20px;
+  color: #555555; /* Slightly lighter color for the answers to distinguish from the questions */
+}
+
+/* Interactive Elements - Hover Effects */
+.faq h3:hover {
+  color: #CF7E66; /* Blue color on hover for questions */
+  cursor: pointer; /* Changes the cursor to indicate interactivity */
+}
+
+/* Styling for links within the FAQs, if any */
+.faq a {
+  color: #CF7E66;
+  text-decoration: none; /* Removes underline from links */
+}
+
+.faq a:hover {
+  text-decoration: underline; /* Adds underline on hover for links */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .faq h3 {
+    font-size: 1.2em; /* Slightly larger font for mobile readability */
+  }
+
+  .faq p {
+    font-size: 1em; /* Ensures text is not too small on mobile devices */
+  }
+}
